@@ -8,10 +8,8 @@
 */
 
 function isAnagram(str1, str2) {
-  const s1 = str1.split("")
-  s1.sort()
-  const s2 = str2.split("")
-  s2.sort()
+  const s1 = str1.toLowerCase().split("").sort()
+  const s2 = str2.toLowerCase().split("").sort()
   if (s1.join("")===s2.join("")) {
     return true
   }else{
