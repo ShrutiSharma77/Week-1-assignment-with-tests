@@ -17,5 +17,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@babel/types": "^7.22.5"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
